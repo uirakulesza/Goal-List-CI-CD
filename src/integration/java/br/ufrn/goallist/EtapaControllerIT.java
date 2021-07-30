@@ -29,6 +29,8 @@ import static org.springframework.http.HttpStatus.*;
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 class EtapaControllerIT {
 
+    // Código precisa ser alterado 
+    
     @Autowired
     private TestRestTemplate restTemplate;
 
