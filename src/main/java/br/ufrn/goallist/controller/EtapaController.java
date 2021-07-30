@@ -19,6 +19,7 @@ public class EtapaController {
     private final IEtapaService etapaService;
 
     // Teste da integracao com SonarCloud
+    // Mais um teste
     @Autowired
     public EtapaController(DefaultEtapaService etapaService) {
         this.etapaService = etapaService;
