@@ -18,6 +18,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 public class EtapaController {
     private final IEtapaService etapaService;
 
+    // Teste da integracao com SonarCloud
     @Autowired
     public EtapaController(DefaultEtapaService etapaService) {
         this.etapaService = etapaService;
